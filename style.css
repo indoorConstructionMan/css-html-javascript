@@ -1,0 +1,45 @@
+ body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
+}
+
+div.container {
+  width: 100%;
+  height: auto;
+  background-color: #2c3e50;
+  position: absolute;
+  top:0px;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+div.navbar {
+  color: #f1c40f;
+  font-size: 220%;
+  float: left;
+  margin: 0 2%;
+  font-family: 'Poiret One', cursive;
+}
+
+div.navbar #about {
+  float: left;
+  padding-right: 6%;
+}
+
+div.navbar #projects {
+  float: left;
+  padding-right: 6%;
+}
+
+div.navbar #contact {
+  float: left;
+}
+
+div.name {
+  float: right;
+  font-family: 'Dancing Script', cursive;
+  color: #f1c40f;
+  font-size: 220%;
+
+}
