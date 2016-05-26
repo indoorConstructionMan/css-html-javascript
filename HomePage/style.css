@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ body, html {
+  background-color: #ecf0f1;
+}
+
+div.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div.navbar {
+  color: #f1c40f;
+  font-size: 40px;
+  height: fixed;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #2c3e50;
+  margin: 0;
+  font-family: 'Poiret One', cursive;
+}
+
+div.navbar .navlink {
+  float: left;
+  padding: 3%;
+  border: 2px solid #f1c40f;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+div.navbar .name {
+  float: right;
+  padding: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: #f1c40f;
+  font-size: 40px;
+}
+
+#content {
+  position: relative;
+  color: lightblue;
+  width: 400px;
+  height: 500px;
+}

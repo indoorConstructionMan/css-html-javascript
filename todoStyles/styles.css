@@ -1,0 +1,38 @@
+html, body {
+  background-color: #ecf0f1;
+  justify-content: center;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  background-color: green;
+  font-family: 'Acme', sans-serif;
+}
+
+.controlBar {
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.controlBar h1 {
+  font-size: 80px;
+  border-style: solid;
+  padding: 5%;
+  border-width: 2px;
+  background-color: #ecf0f1;
+}
+
+.controlBar input {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 100%;
+  font-size: 50px;
+  align-items: center;
+  padding: 10%;
+  margin-bottom: 20px;
+}
